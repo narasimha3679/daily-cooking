@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-20T02:04:45.533Z",
+  "title": "Design System: Daily Cooking",
+  "extensions": {
+    "colorMeta": {
+      "deep-green": {
+        "role": "primary",
+        "displayName": "Deep Green",
+        "canonical": "#123528",
+        "tonalRamp": [
+          "#16372b",
+          "#235c47",
+          "#308364",
+          "#3baa81",
+          "#55c49b",
+          "#7ccfb1",
+          "#a3dcc7",
+          "#c8e9dd"
+        ]
+      },
+      "cream-ground": {
+        "role": "neutral",
+        "displayName": "Cream Ground",
+        "canonical": "#fbf5e8",
+        "tonalRamp": [
+          "#3f2f0e",
+          "#6a4f16",
+          "#956f1d",
+          "#c29023",
+          "#dca93d",
+          "#e2bc6a",
+          "#e9cf95",
+          "#f1e2c0"
+        ]
+      },
+      "cream-card": {
+        "role": "neutral",
+        "displayName": "Cream Card",
+        "canonical": "#fffdf8",
+        "tonalRamp": [
+          "#4a3602",
+          "#7d5a03",
+          "#b07f02",
+          "#e5a401",
+          "#febe1a",
+          "#fdcb4f",
+          "#fcda82",
+          "#fde8b5"
+        ]
+      },
+      "terracotta": {
+        "role": "secondary",
+        "displayName": "Terracotta Action",
+        "canonical": "#b4492e",
+        "tonalRamp": [
+          "#3b1a12",
+          "#632b1d",
+          "#8c3b27",
+          "#b54b30",
+          "#cf644a",
+          "#d88773",
+          "#e2aa9c",
+          "#edcdc4"
+        ]
+      },
+      "terracotta-deep": {
+        "role": "secondary",
+        "displayName": "Deep Terracotta",
+        "canonical": "#963a24",
+        "tonalRamp": [
+          "#3b1a11",
+          "#642a1c",
+          "#8d3a25",
+          "#b8492e",
+          "#d16347",
+          "#da8672",
+          "#e3aa9b",
+          "#eeccc4"
+        ]
+      },
+      "turmeric": {
+        "role": "tertiary",
+        "displayName": "Turmeric",
+        "canonical": "#c98a1e",
+        "tonalRamp": [
+          "#402d0c",
+          "#6c4c13",
+          "#996a19",
+          "#c7891f",
+          "#e0a338",
+          "#e6b766",
+          "#eccb93",
+          "#f3e0bf"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#22201b",
+        "tonalRamp": [
+          "#292724",
+          "#44423b",
+          "#615d52",
+          "#7e7867",
+          "#989181",
+          "#ada99e",
+          "#c4c1bb",
+          "#dbdad6"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#5a5346",
+        "tonalRamp": [
+          "#292724",
+          "#45413a",
+          "#635c50",
+          "#817765",
+          "#9a907e",
+          "#afa99c",
+          "#c5c1ba",
+          "#dbdad6"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Warm Hairline",
+        "canonical": "#ddd0b9",
+        "tonalRamp": [
+          "#31291b",
+          "#53452c",
+          "#76613c",
+          "#9a7d4c",
+          "#b39765",
+          "#c3ad89",
+          "#d3c4ac",
+          "#e4dcce"
+        ]
+      },
+      "hairline-strong": {
+        "role": "neutral",
+        "displayName": "Control Hairline",
+        "canonical": "#8a7d68",
+        "tonalRamp": [
+          "#292723",
+          "#464139",
+          "#645c4f",
+          "#827664",
+          "#9b907d",
+          "#b0a89b",
+          "#c6c1b9",
+          "#dcd9d6"
+        ]
+      },
+      "cream-muted": {
+        "role": "neutral",
+        "displayName": "Muted Cream",
+        "canonical": "#f3ede1",
+        "tonalRamp": [
+          "#342b18",
+          "#594827",
+          "#7d6535",
+          "#a38342",
+          "#bd9c5c",
+          "#cab282",
+          "#d8c8a6",
+          "#e7ddcb"
+        ]
+      },
+      "search-placeholder": {
+        "role": "neutral",
+        "displayName": "Search Placeholder",
+        "canonical": "#6b6252",
+        "tonalRamp": [
+          "#292724",
+          "#45413a",
+          "#635c50",
+          "#817665",
+          "#9a907e",
+          "#afa89c",
+          "#c5c1ba",
+          "#dbd9d6"
+        ]
+      },
+      "turmeric-ink": {
+        "role": "tertiary",
+        "displayName": "Turmeric Ink",
+        "canonical": "#7a4c0b",
+        "tonalRamp": [
+          "#442b09",
+          "#72480d",
+          "#a16511",
+          "#d18214",
+          "#eb9c2e",
+          "#eeb25e",
+          "#f2c88d",
+          "#f6debb"
+        ]
+      },
+      "note-ink": {
+        "role": "tertiary",
+        "displayName": "Note Ink",
+        "canonical": "#4d3a12",
+        "tonalRamp": [
+          "#3c2e11",
+          "#654d1b",
+          "#8e6d24",
+          "#b98c2d",
+          "#d2a646",
+          "#dbb971",
+          "#e4cd9a",
+          "#eee1c3"
+        ]
+      },
+      "print-ink": {
+        "role": "neutral",
+        "displayName": "Print Ink",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "#292424",
+          "#443c3c",
+          "#5f5454",
+          "#7a6c6c",
+          "#938585",
+          "#aba0a0",
+          "#c3bbbb",
+          "#dbd6d6"
+        ]
+      },
+      "print-paper": {
+        "role": "neutral",
+        "displayName": "Print Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#292424",
+          "#443c3c",
+          "#5f5454",
+          "#7a6c6c",
+          "#938585",
+          "#aba0a0",
+          "#c3bbbb",
+          "#dbd6d6"
+        ]
+      },
+      "print-muted": {
+        "role": "neutral",
+        "displayName": "Print Muted",
+        "canonical": "#444444",
+        "tonalRamp": [
+          "#292424",
+          "#443c3c",
+          "#5f5454",
+          "#7a6c6c",
+          "#938585",
+          "#aba0a0",
+          "#c3bbbb",
+          "#dbd6d6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-xl": {
+        "displayName": "Ledger Display XL",
+        "purpose": "Planner date numerals and large page figures."
+      },
+      "display-lg": {
+        "displayName": "Ledger Display",
+        "purpose": "Page titles and recipe sheet titles."
+      },
+      "display": {
+        "displayName": "Ledger Wordmark",
+        "purpose": "Masthead wordmark and empty-state titles."
+      },
+      "title-xl": {
+        "displayName": "Dish Name Large",
+        "purpose": "Hero dish names and empty states."
+      },
+      "title-lg": {
+        "displayName": "Dish Name",
+        "purpose": "Recipe cards and shopping group headings."
+      },
+      "title": {
+        "displayName": "Dish Name Small",
+        "purpose": "Recipe sheet section headings."
+      },
+      "title-sm": {
+        "displayName": "Group Heading",
+        "purpose": "Shopping groups and day headings."
+      },
+      "heading": {
+        "displayName": "Day Heading",
+        "purpose": "Planner day headings."
+      },
+      "body-xl": {
+        "displayName": "Strong Body",
+        "purpose": "Servings value and larger labels."
+      },
+      "body-lg": {
+        "displayName": "Kitchen Body",
+        "purpose": "Recipe steps, notes, empty states."
+      },
+      "body": {
+        "displayName": "Kitchen Body Small",
+        "purpose": "Dense ingredient and shopping rows."
+      },
+      "body-sm": {
+        "displayName": "Dense Body",
+        "purpose": "Picker and planner rows."
+      },
+      "body-xs": {
+        "displayName": "Compact Body",
+        "purpose": "Ingredient rows and notes."
+      },
+      "meta-lg": {
+        "displayName": "Meta Large",
+        "purpose": "Sheet body copy and source notes."
+      },
+      "meta": {
+        "displayName": "Quiet Meta",
+        "purpose": "Buttons, notes and secondary copy."
+      },
+      "meta-sm": {
+        "displayName": "Quiet Meta Small",
+        "purpose": "Picker meta and hints."
+      },
+      "meta-xs": {
+        "displayName": "Quiet Meta Tiny",
+        "purpose": "Time, servings, ingredient count, provenance."
+      },
+      "note": {
+        "displayName": "Fine Note",
+        "purpose": "Smallest meta notes and source timing."
+      },
+      "label-lg": {
+        "displayName": "Spice Label Large",
+        "purpose": "Navigation and dark bar labels."
+      },
+      "label": {
+        "displayName": "Spice Label",
+        "purpose": "Category, marks, Today, small overlines."
+      },
+      "micro": {
+        "displayName": "Ledger Micro",
+        "purpose": "Decorative month abbreviation only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-rest",
+        "value": "0 14px 30px -24px rgba(18, 53, 40, 0.55), 0 2px 5px rgba(18, 53, 40, 0.05)",
+        "purpose": "Recipe cards, day cards and the week actions panel."
+      },
+      {
+        "name": "paper-lift",
+        "value": "0 18px 36px -22px rgba(18, 53, 40, 0.5), 0 4px 9px rgba(18, 53, 40, 0.07)",
+        "purpose": "Hovered cards."
+      },
+      {
+        "name": "sheet",
+        "value": "0 24px 70px -30px rgba(13, 40, 29, 0.75)",
+        "purpose": "Detail and picker sheets."
+      },
+      {
+        "name": "bottom-bar",
+        "value": "0 -14px 32px -26px rgba(18, 53, 40, 0.6)",
+        "purpose": "Fixed phone navigation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "sheet-rise",
+        "value": "0.28s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one authored moment: a sheet enters from below."
+      },
+      {
+        "name": "state-fade",
+        "value": "0.18s ease",
+        "purpose": "Hover, border and background changes."
+      },
+      {
+        "name": "toast-in",
+        "value": "0.2s ease",
+        "purpose": "Toast arrival and departure."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "360px"
+      },
+      {
+        "name": "large-phone",
+        "value": "430px"
+      },
+      {
+        "name": "gutter",
+        "value": "560px"
+      },
+      {
+        "name": "two-column",
+        "value": "640px"
+      },
+      {
+        "name": "wide-content",
+        "value": "760px"
+      },
+      {
+        "name": "rail",
+        "value": "900px"
+      },
+      {
+        "name": "wide-rail",
+        "value": "1120px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one terracotta action on a screen: add to plan, open the planner.",
+      "html": "<button class=\"ds-btn-primary\">Add to plan</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 18px; border: 1.5px solid var(--terracotta); border-radius: 10px; background: var(--terracotta); color: var(--cream-raised); font: 700 15px/1.2 var(--font-ui); cursor: pointer; box-shadow: 0 8px 18px -12px rgba(150, 58, 36, 0.7); transition: background 0.16s ease, transform 0.12s ease; } .ds-btn-primary:hover { background: var(--terracotta-deep); border-color: var(--terracotta-deep); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet paper action: print, copy, week actions.",
+      "html": "<button class=\"ds-btn-secondary\">Print list</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 18px; border: 1.5px solid var(--hairline-strong); border-radius: 10px; background: var(--cream-card); color: var(--deep-green); font: 700 15px/1.2 var(--font-ui); cursor: pointer; transition: border-color 0.16s ease, background 0.16s ease; } .ds-btn-secondary:hover { border-color: var(--deep-green-rule); background: var(--cream-raised); } .ds-btn-secondary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Category Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "A 44 px filter pill; selected is a deep green fill.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"false\">Breakfast</button> <button class=\"ds-chip ds-chip-on\" aria-pressed=\"true\">All</button>",
+      "css": ".ds-chip { min-width: 44px; min-height: 44px; padding: 0 11px; border: 1.5px solid var(--hairline-strong); border-radius: 999px; background: var(--cream-card); color: var(--deep-green); font: 650 14px/1 var(--font-ui); cursor: pointer; } .ds-chip:hover { border-color: var(--deep-green-rule); } .ds-chip-on { background: var(--deep-green-soft); border-color: var(--deep-green-soft); color: var(--cream-raised); } .ds-chip:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "48 px paper search with a drawn icon and a strong focus ring.",
+      "html": "<div class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\"></circle><path d=\"m20 20-4.3-4.3\"></path></svg><input type=\"search\" placeholder=\"Search recipes\" aria-label=\"Search recipes\"></div>",
+      "css": ".ds-search { position: relative; display: flex; align-items: center; } .ds-search svg { position: absolute; left: 13px; width: 20px; height: 20px; fill: none; stroke: var(--ink-soft); stroke-width: 1.8; stroke-linecap: round; } .ds-search input { width: 100%; min-height: 48px; padding: 0 14px 0 43px; border: 1.5px solid var(--hairline-strong); border-radius: 10px; background: var(--cream-card); color: var(--ink); font: 16px/1.4 var(--font-ui); } .ds-search input::placeholder { color: #6b6252; } .ds-search input:focus { outline: none; border-color: var(--terracotta); box-shadow: 0 0 0 3px rgba(180, 73, 46, 0.16); } .ds-search input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Recipe Card",
+      "kind": "card",
+      "refersTo": "recipe-card",
+      "description": "Paper card with a category, a serif dish name, quiet meta and two 44 px actions.",
+      "html": "<article class=\"ds-recipe\"><span class=\"ds-cat\">Curry</span><h3>Aloo Capsicum Curry</h3><p class=\"ds-meta\">35 min &middot; Base for 2 &middot; 14 ingredients</p><span class=\"ds-planned\">Planned this week</span><div class=\"ds-actions\"><button aria-label=\"Love it\">&#9825;</button><button class=\"ds-add\" aria-label=\"Add to planner\">+</button></div></article>",
+      "css": ".ds-recipe { border: 1px solid var(--hairline); border-radius: 14px; background: var(--cream-card); box-shadow: var(--shadow); overflow: hidden; max-width: 420px; } .ds-cat { display: block; padding: 15px 15px 0; color: var(--terracotta-deep); font: 750 11px/1.2 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; } .ds-recipe h3 { margin: 7px 15px 8px; font: 700 22px/1.18 Georgia, serif; color: var(--deep-green); } .ds-meta { margin: 0 15px; color: var(--ink-soft); font: 12.5px/1.4 var(--font-ui); } .ds-planned { display: inline-block; margin: 10px 15px 12px; padding: 4px 8px; border: 1px solid #dce8de; border-radius: 999px; background: #edf3ec; color: var(--deep-green-soft); font: 700 11px/1.2 var(--font-ui); } .ds-actions { display: flex; justify-content: flex-end; gap: 8px; padding: 9px 12px 12px; border-top: 1px solid var(--hairline); } .ds-actions button { width: 44px; height: 44px; border: 1.5px solid var(--hairline-strong); border-radius: 10px; background: var(--cream-card); color: var(--deep-green); font: 20px/1 var(--font-ui); cursor: pointer; } .ds-actions .ds-add { background: var(--terracotta); border-color: var(--terracotta); color: var(--cream-raised); } .ds-actions button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Bottom Navigation",
+      "kind": "nav",
+      "refersTo": "bottom-nav",
+      "description": "The phone's fixed three-destination bar; the active item carries a terracotta marker.",
+      "html": "<nav class=\"ds-nav\"><button aria-current=\"page\"><span class=\"ds-nav-mark\"></span>Recipes</button><button>Planner</button><button>Shopping list</button></nav>",
+      "css": ".ds-nav { display: flex; max-width: 390px; border-top: 1px solid var(--hairline); background: var(--cream-raised); box-shadow: 0 -14px 32px -26px rgba(18, 53, 40, 0.6); } .ds-nav button { position: relative; flex: 1; min-height: 66px; border: 0; background: transparent; color: var(--ink-soft); font: 650 11.5px/1.15 var(--font-ui); cursor: pointer; } .ds-nav button[aria-current=\"page\"] { color: var(--deep-green); } .ds-nav-mark { display: block; width: 46px; height: 3px; margin: 0 auto 5px; border-radius: 0 0 4px 4px; background: var(--terracotta); } .ds-nav button:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Kitchen Ledger",
+    "overview": "Daily Cooking is a working kitchen book, not a recipe catalogue. The screen is cream paper, the masthead is deep green ink, and the names of the dishes are set in a local serif as if they were written into a family notebook. Terracotta marks the thing to do next. The week is ruled like a ledger, with large tabular dates in the margin and dish rows that read from top to bottom. The shopping list carries the same logic, with the total in the main column and the practical buy amount in terracotta beside it.",
+    "keyCharacteristics": [
+      "Deep green structure, warm cream paper, terracotta action, turmeric only for Today and notes.",
+      "Georgia for food names, dates, numerals and section headings; a system humanist sans for controls.",
+      "Ruled groups, tabular numerals and a visible total and buy pair in every shopping row.",
+      "A fixed 66 px bottom bar on the phone and a 232 to 250 px left rail on desktop.",
+      "Soft warm shadows, full 1 px borders, no one-sided accent bars.",
+      "Every state is visible: Loved, Not for me, Planned, Today, picked, full, disabled, empty, loading, error."
+    ],
+    "rules": [
+      {
+        "name": "The Paper Rule",
+        "body": "Cards are warm paper on cream. Never pure white on grey, and never a grey card inside another card.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Ink Rule",
+        "body": "Deep green owns structure and names. Terracotta owns action and the present moment. Do not swap them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cream Exception",
+        "body": "The cream ground is a deliberate, brief-pinned material, not a reflex. Keep it warm and pair it with green and terracotta, never with blue or purple.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Display Voice Rule",
+        "body": "The serif is for names, dates, section headings and step numerals. It never sets a button, a filter or a form label.",
+        "section": "typography"
+      },
+      {
+        "name": "The 11 px Floor Rule",
+        "body": "No functional text below 11 px. The month abbreviation in the planner date block is decorative and duplicated by the day heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Number Rule",
+        "body": "Quantities, dates and buy amounts always use tabular numerals. A shopping column must line up.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use deep green for structure and names, cream paper for surfaces and terracotta for actions and the current moment.",
+      "Do set food names, dates, section headings and step numerals in the local serif stack.",
+      "Do keep every control at 44 px minimum, every body text at 4.5:1 or better, and every functional label at 11 px or larger.",
+      "Do keep search and filters sticky, keep the three destinations in a fixed bottom bar on the phone, and keep the servings control beside the plan or the list it changes.",
+      "Do show a total and a practical buy amount in every shopping row, and show the checked state with a wash, a check and a strike-through.",
+      "Do scale ingredient amounts to the chosen servings in the recipe sheet, while keeping the source amounts behind a disclosure.",
+      "Do keep Not for me dishes visible in Recipes with a Restore action, and hide them from planner picks."
+    ],
+    "donts": [
+      "Don't use purple to blue gradients, Inter, pure white cards on grey, grey cards inside cards, glass, gradient text or rounded icon tiles above headings.",
+      "Don't use hot pink, amber or any off-palette accent. Turmeric is the only warm third accent.",
+      "Don't use one-sided accent bars, hard offset shadows, or a zero-offset coloured halo.",
+      "Don't add external fonts, photography, CDN links or runtime network calls. The app works offline.",
+      "Don't auto-generate a plan, change the shopping aggregation, or hide a Not for me dish from the Recipes list.",
+      "Don't use em dashes in site copy or code comments."
+    ]
+  }
+}

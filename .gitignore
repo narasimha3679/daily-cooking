@@ -1,0 +1,6 @@
+# Local tooling and working material
+.gemini/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/config.local.json

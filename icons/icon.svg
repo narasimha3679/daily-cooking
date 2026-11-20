@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><rect width="512" height="512" fill="#2e7d32"/><rect x="64" y="128" width="384" height="256" rx="24" fill="#ffffff"/><rect x="128" y="96" width="256" height="48" rx="12" fill="#ffc107"/><text x="256" y="300" font-family="sans-serif" font-size="120" font-weight="bold" fill="#2e7d32" text-anchor="middle">DC</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="104" fill="#123528"/>
+  <path d="M98 250h316l-26 118a54 54 0 0 1-53 42H177a54 54 0 0 1-53-42L98 250Z" fill="#FBF5E8"/>
+  <rect x="82" y="226" width="348" height="42" rx="21" fill="#FBF5E8"/>
+  <rect x="232" y="186" width="48" height="44" rx="14" fill="#B4492E"/>
+  <path d="M186 128c0 16 14 18 14 34M256 108c0 18 16 20 16 40M326 128c0 16-14 18-14 34" fill="none" stroke="#C98A1E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M206 318h100" stroke="#123528" stroke-width="14" stroke-linecap="round" opacity=".22"/>
+</svg>
